@@ -1,0 +1,935 @@
+[2022-09-03 18:58:39 MetaFG_meta_1] (main.py 398): INFO Full config saved to output/MetaFG_meta_1/cub-200_v1/config.json
+[2022-09-03 18:58:39 MetaFG_meta_1] (main.py 401): INFO AMP_OPT_LEVEL: O1
+AUG:
+  AUTO_AUGMENT: rand-m9-mstd0.5-inc1
+  COLOR_JITTER: 0.4
+  CUTMIX: 1.0
+  CUTMIX_MINMAX: null
+  MIXUP: 0.8
+  MIXUP_MODE: batch
+  MIXUP_PROB: 1.0
+  MIXUP_SWITCH_PROB: 0.5
+  RECOUNT: 1
+  REMODE: pixel
+  REPROB: 0.25
+BASE:
+- ''
+DATA:
+  ADD_META: true
+  BATCH_SIZE: 2
+  CACHE_MODE: part
+  DATASET: cub-200
+  DATA_PATH: /home/gtj/papercode/data/CUB_200_2011
+  FUSION: early
+  IMG_SIZE: 224
+  INTERPOLATION: bicubic
+  LATE_FUSION_LAYER: -1
+  MASK_PROB: 0.0
+  MASK_TYPE: constant
+  NUM_READERS: 4
+  NUM_WORKERS: 8
+  PIN_MEMORY: true
+  TRAIN_INTERPOLATION: bicubic
+  TRAIN_PATH: null
+  VAL_PATH: null
+  ZIP_MODE: false
+EVAL_MODE: false
+LOCAL_RANK: 0
+MODEL:
+  DORP_HEAD: true
+  DORP_META: true
+  DROP_PATH_RATE: 0.1
+  DROP_RATE: 0.0
+  EXTRA_TOKEN_NUM: 3
+  LABEL_SMOOTHING: 0.1
+  META_DIMS:
+  - 4
+  - 3
+  NAME: MetaFG_meta_1
+  NUM_CLASSES: 1000
+  ONLY_LAST_CLS: false
+  PRETRAINED: ''
+  RESUME: ''
+  TYPE: MetaFG
+OUTPUT: output/MetaFG_meta_1/cub-200_v1
+PRINT_FREQ: 10
+SAVE_FREQ: 1
+SEED: 0
+TAG: cub-200_v1
+TEST:
+  CROP: true
+THROUGHPUT_MODE: false
+TRAIN:
+  ACCUMULATION_STEPS: 2
+  AUTO_RESUME: true
+  BASE_LR: 3.90625e-07
+  CLIP_GRAD: 5.0
+  EPOCHS: 300
+  LR_SCHEDULER:
+    DECAY_EPOCHS: 30
+    DECAY_RATE: 0.1
+    NAME: cosine
+  MIN_LR: 3.90625e-09
+  OPTIMIZER:
+    BETAS:
+    - 0.9
+    - 0.999
+    EPS: 1.0e-08
+    MOMENTUM: 0.9
+    NAME: adamw
+  START_EPOCH: 0
+  USE_CHECKPOINT: false
+  WARMUP_EPOCHS: 20
+  WARMUP_LR: 3.90625e-10
+  WEIGHT_DECAY: 0.05
+
+[2022-09-03 19:11:44 MetaFG_meta_1] (main.py 398): INFO Full config saved to output/MetaFG_meta_1/cub-200_v1/config.json
+[2022-09-03 19:11:44 MetaFG_meta_1] (main.py 401): INFO AMP_OPT_LEVEL: O1
+AUG:
+  AUTO_AUGMENT: rand-m9-mstd0.5-inc1
+  COLOR_JITTER: 0.4
+  CUTMIX: 1.0
+  CUTMIX_MINMAX: null
+  MIXUP: 0.8
+  MIXUP_MODE: batch
+  MIXUP_PROB: 1.0
+  MIXUP_SWITCH_PROB: 0.5
+  RECOUNT: 1
+  REMODE: pixel
+  REPROB: 0.25
+BASE:
+- ''
+DATA:
+  ADD_META: true
+  BATCH_SIZE: 2
+  CACHE_MODE: part
+  DATASET: cub-200
+  DATA_PATH: /home/gtj/papercode/data/
+  FUSION: early
+  IMG_SIZE: 224
+  INTERPOLATION: bicubic
+  LATE_FUSION_LAYER: -1
+  MASK_PROB: 0.0
+  MASK_TYPE: constant
+  NUM_READERS: 4
+  NUM_WORKERS: 8
+  PIN_MEMORY: true
+  TRAIN_INTERPOLATION: bicubic
+  TRAIN_PATH: null
+  VAL_PATH: null
+  ZIP_MODE: false
+EVAL_MODE: false
+LOCAL_RANK: 0
+MODEL:
+  DORP_HEAD: true
+  DORP_META: true
+  DROP_PATH_RATE: 0.1
+  DROP_RATE: 0.0
+  EXTRA_TOKEN_NUM: 3
+  LABEL_SMOOTHING: 0.1
+  META_DIMS:
+  - 4
+  - 3
+  NAME: MetaFG_meta_1
+  NUM_CLASSES: 1000
+  ONLY_LAST_CLS: false
+  PRETRAINED: ''
+  RESUME: ''
+  TYPE: MetaFG
+OUTPUT: output/MetaFG_meta_1/cub-200_v1
+PRINT_FREQ: 10
+SAVE_FREQ: 1
+SEED: 0
+TAG: cub-200_v1
+TEST:
+  CROP: true
+THROUGHPUT_MODE: false
+TRAIN:
+  ACCUMULATION_STEPS: 2
+  AUTO_RESUME: true
+  BASE_LR: 3.90625e-07
+  CLIP_GRAD: 5.0
+  EPOCHS: 300
+  LR_SCHEDULER:
+    DECAY_EPOCHS: 30
+    DECAY_RATE: 0.1
+    NAME: cosine
+  MIN_LR: 3.90625e-09
+  OPTIMIZER:
+    BETAS:
+    - 0.9
+    - 0.999
+    EPS: 1.0e-08
+    MOMENTUM: 0.9
+    NAME: adamw
+  START_EPOCH: 0
+  USE_CHECKPOINT: false
+  WARMUP_EPOCHS: 20
+  WARMUP_LR: 3.90625e-10
+  WEIGHT_DECAY: 0.05
+
+[2022-09-03 19:21:39 MetaFG_meta_1] (main.py 399): INFO Full config saved to output/MetaFG_meta_1/cub-200_v1/config.json
+[2022-09-03 19:21:39 MetaFG_meta_1] (main.py 402): INFO AMP_OPT_LEVEL: O1
+AUG:
+  AUTO_AUGMENT: rand-m9-mstd0.5-inc1
+  COLOR_JITTER: 0.4
+  CUTMIX: 1.0
+  CUTMIX_MINMAX: null
+  MIXUP: 0.8
+  MIXUP_MODE: batch
+  MIXUP_PROB: 1.0
+  MIXUP_SWITCH_PROB: 0.5
+  RECOUNT: 1
+  REMODE: pixel
+  REPROB: 0.25
+BASE:
+- ''
+DATA:
+  ADD_META: true
+  BATCH_SIZE: 2
+  CACHE_MODE: part
+  DATASET: cub-200
+  DATA_PATH: /home/gtj/papercode/data/
+  FUSION: early
+  IMG_SIZE: 224
+  INTERPOLATION: bicubic
+  LATE_FUSION_LAYER: -1
+  MASK_PROB: 0.0
+  MASK_TYPE: constant
+  NUM_READERS: 4
+  NUM_WORKERS: 8
+  PIN_MEMORY: true
+  TRAIN_INTERPOLATION: bicubic
+  TRAIN_PATH: null
+  VAL_PATH: null
+  ZIP_MODE: false
+EVAL_MODE: false
+LOCAL_RANK: 0
+MODEL:
+  DORP_HEAD: true
+  DORP_META: true
+  DROP_PATH_RATE: 0.1
+  DROP_RATE: 0.0
+  EXTRA_TOKEN_NUM: 3
+  LABEL_SMOOTHING: 0.1
+  META_DIMS:
+  - 4
+  - 3
+  NAME: MetaFG_meta_1
+  NUM_CLASSES: 1000
+  ONLY_LAST_CLS: false
+  PRETRAINED: ''
+  RESUME: ''
+  TYPE: MetaFG
+OUTPUT: output/MetaFG_meta_1/cub-200_v1
+PRINT_FREQ: 10
+SAVE_FREQ: 1
+SEED: 0
+TAG: cub-200_v1
+TEST:
+  CROP: true
+THROUGHPUT_MODE: false
+TRAIN:
+  ACCUMULATION_STEPS: 2
+  AUTO_RESUME: true
+  BASE_LR: 3.90625e-07
+  CLIP_GRAD: 5.0
+  EPOCHS: 300
+  LR_SCHEDULER:
+    DECAY_EPOCHS: 30
+    DECAY_RATE: 0.1
+    NAME: cosine
+  MIN_LR: 3.90625e-09
+  OPTIMIZER:
+    BETAS:
+    - 0.9
+    - 0.999
+    EPS: 1.0e-08
+    MOMENTUM: 0.9
+    NAME: adamw
+  START_EPOCH: 0
+  USE_CHECKPOINT: false
+  WARMUP_EPOCHS: 20
+  WARMUP_LR: 3.90625e-10
+  WEIGHT_DECAY: 0.05
+
+[2022-09-03 19:22:05 MetaFG_meta_1] (main.py 399): INFO Full config saved to output/MetaFG_meta_1/cub-200_v1/config.json
+[2022-09-03 19:22:05 MetaFG_meta_1] (main.py 402): INFO AMP_OPT_LEVEL: O1
+AUG:
+  AUTO_AUGMENT: rand-m9-mstd0.5-inc1
+  COLOR_JITTER: 0.4
+  CUTMIX: 1.0
+  CUTMIX_MINMAX: null
+  MIXUP: 0.8
+  MIXUP_MODE: batch
+  MIXUP_PROB: 1.0
+  MIXUP_SWITCH_PROB: 0.5
+  RECOUNT: 1
+  REMODE: pixel
+  REPROB: 0.25
+BASE:
+- ''
+DATA:
+  ADD_META: true
+  BATCH_SIZE: 2
+  CACHE_MODE: part
+  DATASET: cub-200
+  DATA_PATH: /home/gtj/papercode/data/
+  FUSION: early
+  IMG_SIZE: 224
+  INTERPOLATION: bicubic
+  LATE_FUSION_LAYER: -1
+  MASK_PROB: 0.0
+  MASK_TYPE: constant
+  NUM_READERS: 4
+  NUM_WORKERS: 8
+  PIN_MEMORY: true
+  TRAIN_INTERPOLATION: bicubic
+  TRAIN_PATH: null
+  VAL_PATH: null
+  ZIP_MODE: false
+EVAL_MODE: false
+LOCAL_RANK: 0
+MODEL:
+  DORP_HEAD: true
+  DORP_META: true
+  DROP_PATH_RATE: 0.1
+  DROP_RATE: 0.0
+  EXTRA_TOKEN_NUM: 3
+  LABEL_SMOOTHING: 0.1
+  META_DIMS:
+  - 4
+  - 3
+  NAME: MetaFG_meta_1
+  NUM_CLASSES: 1000
+  ONLY_LAST_CLS: false
+  PRETRAINED: ''
+  RESUME: ''
+  TYPE: MetaFG
+OUTPUT: output/MetaFG_meta_1/cub-200_v1
+PRINT_FREQ: 10
+SAVE_FREQ: 1
+SEED: 0
+TAG: cub-200_v1
+TEST:
+  CROP: true
+THROUGHPUT_MODE: false
+TRAIN:
+  ACCUMULATION_STEPS: 2
+  AUTO_RESUME: true
+  BASE_LR: 3.90625e-07
+  CLIP_GRAD: 5.0
+  EPOCHS: 300
+  LR_SCHEDULER:
+    DECAY_EPOCHS: 30
+    DECAY_RATE: 0.1
+    NAME: cosine
+  MIN_LR: 3.90625e-09
+  OPTIMIZER:
+    BETAS:
+    - 0.9
+    - 0.999
+    EPS: 1.0e-08
+    MOMENTUM: 0.9
+    NAME: adamw
+  START_EPOCH: 0
+  USE_CHECKPOINT: false
+  WARMUP_EPOCHS: 20
+  WARMUP_LR: 3.90625e-10
+  WEIGHT_DECAY: 0.05
+
+[2022-09-03 19:32:20 MetaFG_meta_1] (main.py 399): INFO Full config saved to output/MetaFG_meta_1/cub-200_v1/config.json
+[2022-09-03 19:32:20 MetaFG_meta_1] (main.py 402): INFO AMP_OPT_LEVEL: O1
+AUG:
+  AUTO_AUGMENT: rand-m9-mstd0.5-inc1
+  COLOR_JITTER: 0.4
+  CUTMIX: 1.0
+  CUTMIX_MINMAX: null
+  MIXUP: 0.8
+  MIXUP_MODE: batch
+  MIXUP_PROB: 1.0
+  MIXUP_SWITCH_PROB: 0.5
+  RECOUNT: 1
+  REMODE: pixel
+  REPROB: 0.25
+BASE:
+- ''
+DATA:
+  ADD_META: true
+  BATCH_SIZE: 2
+  CACHE_MODE: part
+  DATASET: cub-200
+  DATA_PATH: /home/gtj/papercode/data/
+  FUSION: early
+  IMG_SIZE: 224
+  INTERPOLATION: bicubic
+  LATE_FUSION_LAYER: -1
+  MASK_PROB: 0.0
+  MASK_TYPE: constant
+  NUM_READERS: 4
+  NUM_WORKERS: 8
+  PIN_MEMORY: true
+  TRAIN_INTERPOLATION: bicubic
+  TRAIN_PATH: null
+  VAL_PATH: null
+  ZIP_MODE: false
+EVAL_MODE: false
+LOCAL_RANK: 0
+MODEL:
+  DORP_HEAD: true
+  DORP_META: true
+  DROP_PATH_RATE: 0.1
+  DROP_RATE: 0.0
+  EXTRA_TOKEN_NUM: 3
+  LABEL_SMOOTHING: 0.1
+  META_DIMS:
+  - 4
+  - 3
+  NAME: MetaFG_meta_1
+  NUM_CLASSES: 1000
+  ONLY_LAST_CLS: false
+  PRETRAINED: ''
+  RESUME: ''
+  TYPE: MetaFG
+OUTPUT: output/MetaFG_meta_1/cub-200_v1
+PRINT_FREQ: 10
+SAVE_FREQ: 1
+SEED: 0
+TAG: cub-200_v1
+TEST:
+  CROP: true
+THROUGHPUT_MODE: false
+TRAIN:
+  ACCUMULATION_STEPS: 2
+  AUTO_RESUME: true
+  BASE_LR: 3.90625e-07
+  CLIP_GRAD: 5.0
+  EPOCHS: 300
+  LR_SCHEDULER:
+    DECAY_EPOCHS: 30
+    DECAY_RATE: 0.1
+    NAME: cosine
+  MIN_LR: 3.90625e-09
+  OPTIMIZER:
+    BETAS:
+    - 0.9
+    - 0.999
+    EPS: 1.0e-08
+    MOMENTUM: 0.9
+    NAME: adamw
+  START_EPOCH: 0
+  USE_CHECKPOINT: false
+  WARMUP_EPOCHS: 20
+  WARMUP_LR: 3.90625e-10
+  WEIGHT_DECAY: 0.05
+
+[2022-09-07 09:22:45 MetaFG_meta_1] (main.py 398): INFO Full config saved to output/MetaFG_meta_1/cub-200_v1/config.json
+[2022-09-07 09:22:45 MetaFG_meta_1] (main.py 401): INFO AMP_OPT_LEVEL: O1
+AUG:
+  AUTO_AUGMENT: rand-m9-mstd0.5-inc1
+  COLOR_JITTER: 0.4
+  CUTMIX: 1.0
+  CUTMIX_MINMAX: null
+  MIXUP: 0.8
+  MIXUP_MODE: batch
+  MIXUP_PROB: 1.0
+  MIXUP_SWITCH_PROB: 0.5
+  RECOUNT: 1
+  REMODE: pixel
+  REPROB: 0.25
+BASE:
+- ''
+DATA:
+  ADD_META: true
+  BATCH_SIZE: 32
+  CACHE_MODE: part
+  DATASET: cub-200
+  DATA_PATH: /home/gtj/papercode/data/
+  FUSION: early
+  IMG_SIZE: 384
+  INTERPOLATION: bicubic
+  LATE_FUSION_LAYER: -1
+  MASK_PROB: 0.0
+  MASK_TYPE: constant
+  NUM_READERS: 4
+  NUM_WORKERS: 8
+  PIN_MEMORY: true
+  TRAIN_INTERPOLATION: bicubic
+  TRAIN_PATH: null
+  VAL_PATH: null
+  ZIP_MODE: false
+EVAL_MODE: false
+LOCAL_RANK: 0
+MODEL:
+  DORP_HEAD: true
+  DORP_META: true
+  DROP_PATH_RATE: 0.1
+  DROP_RATE: 0.0
+  EXTRA_TOKEN_NUM: 3
+  LABEL_SMOOTHING: 0.1
+  META_DIMS:
+  - 4
+  - 3
+  NAME: MetaFG_meta_1
+  NUM_CLASSES: 1000
+  ONLY_LAST_CLS: false
+  PRETRAINED: /home/gtj/papercode/data/MetaFormer_model/metafg_0_1k_224.pth
+  RESUME: ''
+  TYPE: MetaFG
+OUTPUT: output/MetaFG_meta_1/cub-200_v1
+PRINT_FREQ: 10
+SAVE_FREQ: 1
+SEED: 0
+TAG: cub-200_v1
+TEST:
+  CROP: true
+THROUGHPUT_MODE: false
+TRAIN:
+  ACCUMULATION_STEPS: 2
+  AUTO_RESUME: true
+  BASE_LR: 6.25e-06
+  CLIP_GRAD: 5.0
+  EPOCHS: 300
+  LR_SCHEDULER:
+    DECAY_EPOCHS: 30
+    DECAY_RATE: 0.1
+    NAME: cosine
+  MIN_LR: 6.25e-08
+  OPTIMIZER:
+    BETAS:
+    - 0.9
+    - 0.999
+    EPS: 1.0e-08
+    MOMENTUM: 0.9
+    NAME: adamw
+  START_EPOCH: 0
+  USE_CHECKPOINT: false
+  WARMUP_EPOCHS: 20
+  WARMUP_LR: 6.25e-09
+  WEIGHT_DECAY: 0.05
+
+[2022-09-07 09:26:07 MetaFG_meta_1] (main.py 398): INFO Full config saved to output/MetaFG_meta_1/cub-200_v1/config.json
+[2022-09-07 09:26:07 MetaFG_meta_1] (main.py 401): INFO AMP_OPT_LEVEL: O1
+AUG:
+  AUTO_AUGMENT: rand-m9-mstd0.5-inc1
+  COLOR_JITTER: 0.4
+  CUTMIX: 1.0
+  CUTMIX_MINMAX: null
+  MIXUP: 0.8
+  MIXUP_MODE: batch
+  MIXUP_PROB: 1.0
+  MIXUP_SWITCH_PROB: 0.5
+  RECOUNT: 1
+  REMODE: pixel
+  REPROB: 0.25
+BASE:
+- ''
+DATA:
+  ADD_META: true
+  BATCH_SIZE: 32
+  CACHE_MODE: part
+  DATASET: cub-200
+  DATA_PATH: /home/gtj/papercode/data/
+  FUSION: early
+  IMG_SIZE: 384
+  INTERPOLATION: bicubic
+  LATE_FUSION_LAYER: -1
+  MASK_PROB: 0.0
+  MASK_TYPE: constant
+  NUM_READERS: 4
+  NUM_WORKERS: 8
+  PIN_MEMORY: true
+  TRAIN_INTERPOLATION: bicubic
+  TRAIN_PATH: null
+  VAL_PATH: null
+  ZIP_MODE: false
+EVAL_MODE: false
+LOCAL_RANK: 0
+MODEL:
+  DORP_HEAD: true
+  DORP_META: true
+  DROP_PATH_RATE: 0.1
+  DROP_RATE: 0.0
+  EXTRA_TOKEN_NUM: 3
+  LABEL_SMOOTHING: 0.1
+  META_DIMS:
+  - 4
+  - 3
+  NAME: MetaFG_meta_1
+  NUM_CLASSES: 1000
+  ONLY_LAST_CLS: false
+  PRETRAINED: /home/gtj/papercode/data/MetaFormer_model/metafg_0_1k_224.pth
+  RESUME: ''
+  TYPE: MetaFG
+OUTPUT: output/MetaFG_meta_1/cub-200_v1
+PRINT_FREQ: 10
+SAVE_FREQ: 1
+SEED: 0
+TAG: cub-200_v1
+TEST:
+  CROP: true
+THROUGHPUT_MODE: false
+TRAIN:
+  ACCUMULATION_STEPS: 2
+  AUTO_RESUME: true
+  BASE_LR: 6.25e-06
+  CLIP_GRAD: 5.0
+  EPOCHS: 300
+  LR_SCHEDULER:
+    DECAY_EPOCHS: 30
+    DECAY_RATE: 0.1
+    NAME: cosine
+  MIN_LR: 6.25e-08
+  OPTIMIZER:
+    BETAS:
+    - 0.9
+    - 0.999
+    EPS: 1.0e-08
+    MOMENTUM: 0.9
+    NAME: adamw
+  START_EPOCH: 0
+  USE_CHECKPOINT: false
+  WARMUP_EPOCHS: 20
+  WARMUP_LR: 6.25e-09
+  WEIGHT_DECAY: 0.05
+
+[2022-09-07 09:40:55 MetaFG_meta_1] (main.py 398): INFO Full config saved to output/MetaFG_meta_1/cub-200_v1/config.json
+[2022-09-07 09:40:55 MetaFG_meta_1] (main.py 401): INFO AMP_OPT_LEVEL: O1
+AUG:
+  AUTO_AUGMENT: rand-m9-mstd0.5-inc1
+  COLOR_JITTER: 0.4
+  CUTMIX: 1.0
+  CUTMIX_MINMAX: null
+  MIXUP: 0.8
+  MIXUP_MODE: batch
+  MIXUP_PROB: 1.0
+  MIXUP_SWITCH_PROB: 0.5
+  RECOUNT: 1
+  REMODE: pixel
+  REPROB: 0.25
+BASE:
+- ''
+DATA:
+  ADD_META: true
+  BATCH_SIZE: 32
+  CACHE_MODE: part
+  DATASET: cub-200
+  DATA_PATH: /home/gtj/papercode/data/
+  FUSION: early
+  IMG_SIZE: 384
+  INTERPOLATION: bicubic
+  LATE_FUSION_LAYER: -1
+  MASK_PROB: 0.0
+  MASK_TYPE: constant
+  NUM_READERS: 4
+  NUM_WORKERS: 8
+  PIN_MEMORY: true
+  TRAIN_INTERPOLATION: bicubic
+  TRAIN_PATH: null
+  VAL_PATH: null
+  ZIP_MODE: false
+EVAL_MODE: false
+LOCAL_RANK: 0
+MODEL:
+  DORP_HEAD: true
+  DORP_META: true
+  DROP_PATH_RATE: 0.1
+  DROP_RATE: 0.0
+  EXTRA_TOKEN_NUM: 3
+  LABEL_SMOOTHING: 0.1
+  META_DIMS:
+  - 4
+  - 3
+  NAME: MetaFG_meta_1
+  NUM_CLASSES: 1000
+  ONLY_LAST_CLS: false
+  PRETRAINED: /home/gtj/papercode/data/MetaFormer_model/metafg_0_1k_224.pth
+  RESUME: ''
+  TYPE: MetaFG
+OUTPUT: output/MetaFG_meta_1/cub-200_v1
+PRINT_FREQ: 10
+SAVE_FREQ: 1
+SEED: 0
+TAG: cub-200_v1
+TEST:
+  CROP: true
+THROUGHPUT_MODE: false
+TRAIN:
+  ACCUMULATION_STEPS: 2
+  AUTO_RESUME: true
+  BASE_LR: 6.25e-06
+  CLIP_GRAD: 5.0
+  EPOCHS: 300
+  LR_SCHEDULER:
+    DECAY_EPOCHS: 30
+    DECAY_RATE: 0.1
+    NAME: cosine
+  MIN_LR: 6.25e-08
+  OPTIMIZER:
+    BETAS:
+    - 0.9
+    - 0.999
+    EPS: 1.0e-08
+    MOMENTUM: 0.9
+    NAME: adamw
+  START_EPOCH: 0
+  USE_CHECKPOINT: false
+  WARMUP_EPOCHS: 20
+  WARMUP_LR: 6.25e-09
+  WEIGHT_DECAY: 0.05
+
+[2022-09-07 09:41:56 MetaFG_meta_1] (main.py 398): INFO Full config saved to output/MetaFG_meta_1/cub-200_v1/config.json
+[2022-09-07 09:41:56 MetaFG_meta_1] (main.py 401): INFO AMP_OPT_LEVEL: O1
+AUG:
+  AUTO_AUGMENT: rand-m9-mstd0.5-inc1
+  COLOR_JITTER: 0.4
+  CUTMIX: 1.0
+  CUTMIX_MINMAX: null
+  MIXUP: 0.8
+  MIXUP_MODE: batch
+  MIXUP_PROB: 1.0
+  MIXUP_SWITCH_PROB: 0.5
+  RECOUNT: 1
+  REMODE: pixel
+  REPROB: 0.25
+BASE:
+- ''
+DATA:
+  ADD_META: true
+  BATCH_SIZE: 32
+  CACHE_MODE: part
+  DATASET: cub-200
+  DATA_PATH: /home/gtj/papercode/data/
+  FUSION: early
+  IMG_SIZE: 384
+  INTERPOLATION: bicubic
+  LATE_FUSION_LAYER: -1
+  MASK_PROB: 0.0
+  MASK_TYPE: constant
+  NUM_READERS: 4
+  NUM_WORKERS: 8
+  PIN_MEMORY: true
+  TRAIN_INTERPOLATION: bicubic
+  TRAIN_PATH: null
+  VAL_PATH: null
+  ZIP_MODE: false
+EVAL_MODE: false
+LOCAL_RANK: 0
+MODEL:
+  DORP_HEAD: true
+  DORP_META: true
+  DROP_PATH_RATE: 0.1
+  DROP_RATE: 0.0
+  EXTRA_TOKEN_NUM: 3
+  LABEL_SMOOTHING: 0.1
+  META_DIMS:
+  - 4
+  - 3
+  NAME: MetaFG_meta_1
+  NUM_CLASSES: 1000
+  ONLY_LAST_CLS: false
+  PRETRAINED: /home/gtj/papercode/data/MetaFormer_model/metafg_0_1k_224.pth
+  RESUME: ''
+  TYPE: MetaFG
+OUTPUT: output/MetaFG_meta_1/cub-200_v1
+PRINT_FREQ: 10
+SAVE_FREQ: 1
+SEED: 0
+TAG: cub-200_v1
+TEST:
+  CROP: true
+THROUGHPUT_MODE: false
+TRAIN:
+  ACCUMULATION_STEPS: 2
+  AUTO_RESUME: true
+  BASE_LR: 6.25e-06
+  CLIP_GRAD: 5.0
+  EPOCHS: 300
+  LR_SCHEDULER:
+    DECAY_EPOCHS: 30
+    DECAY_RATE: 0.1
+    NAME: cosine
+  MIN_LR: 6.25e-08
+  OPTIMIZER:
+    BETAS:
+    - 0.9
+    - 0.999
+    EPS: 1.0e-08
+    MOMENTUM: 0.9
+    NAME: adamw
+  START_EPOCH: 0
+  USE_CHECKPOINT: false
+  WARMUP_EPOCHS: 20
+  WARMUP_LR: 6.25e-09
+  WEIGHT_DECAY: 0.05
+
+[2022-09-07 09:45:34 MetaFG_meta_1] (main.py 398): INFO Full config saved to output/MetaFG_meta_1/cub-200_v1/config.json
+[2022-09-07 09:45:34 MetaFG_meta_1] (main.py 401): INFO AMP_OPT_LEVEL: O1
+AUG:
+  AUTO_AUGMENT: rand-m9-mstd0.5-inc1
+  COLOR_JITTER: 0.4
+  CUTMIX: 1.0
+  CUTMIX_MINMAX: null
+  MIXUP: 0.8
+  MIXUP_MODE: batch
+  MIXUP_PROB: 1.0
+  MIXUP_SWITCH_PROB: 0.5
+  RECOUNT: 1
+  REMODE: pixel
+  REPROB: 0.25
+BASE:
+- ''
+DATA:
+  ADD_META: true
+  BATCH_SIZE: 32
+  CACHE_MODE: part
+  DATASET: cub-200
+  DATA_PATH: /home/gtj/papercode/data/
+  FUSION: early
+  IMG_SIZE: 384
+  INTERPOLATION: bicubic
+  LATE_FUSION_LAYER: -1
+  MASK_PROB: 0.0
+  MASK_TYPE: constant
+  NUM_READERS: 4
+  NUM_WORKERS: 8
+  PIN_MEMORY: true
+  TRAIN_INTERPOLATION: bicubic
+  TRAIN_PATH: null
+  VAL_PATH: null
+  ZIP_MODE: false
+EVAL_MODE: false
+LOCAL_RANK: 0
+MODEL:
+  DORP_HEAD: true
+  DORP_META: true
+  DROP_PATH_RATE: 0.1
+  DROP_RATE: 0.0
+  EXTRA_TOKEN_NUM: 3
+  LABEL_SMOOTHING: 0.1
+  META_DIMS:
+  - 4
+  - 3
+  NAME: MetaFG_meta_1
+  NUM_CLASSES: 1000
+  ONLY_LAST_CLS: false
+  PRETRAINED: /home/gtj/papercode/data/MetaFormer_model/metafg_0_1k_224.pth
+  RESUME: ''
+  TYPE: MetaFG
+OUTPUT: output/MetaFG_meta_1/cub-200_v1
+PRINT_FREQ: 10
+SAVE_FREQ: 1
+SEED: 0
+TAG: cub-200_v1
+TEST:
+  CROP: true
+THROUGHPUT_MODE: false
+TRAIN:
+  ACCUMULATION_STEPS: 2
+  AUTO_RESUME: true
+  BASE_LR: 6.25e-06
+  CLIP_GRAD: 5.0
+  EPOCHS: 300
+  LR_SCHEDULER:
+    DECAY_EPOCHS: 30
+    DECAY_RATE: 0.1
+    NAME: cosine
+  MIN_LR: 6.25e-08
+  OPTIMIZER:
+    BETAS:
+    - 0.9
+    - 0.999
+    EPS: 1.0e-08
+    MOMENTUM: 0.9
+    NAME: adamw
+  START_EPOCH: 0
+  USE_CHECKPOINT: false
+  WARMUP_EPOCHS: 20
+  WARMUP_LR: 6.25e-09
+  WEIGHT_DECAY: 0.05
+
+[2022-09-07 09:46:50 MetaFG_meta_1] (main.py 398): INFO Full config saved to output/MetaFG_meta_1/cub-200_v1/config.json
+[2022-09-07 09:46:50 MetaFG_meta_1] (main.py 401): INFO AMP_OPT_LEVEL: O1
+AUG:
+  AUTO_AUGMENT: rand-m9-mstd0.5-inc1
+  COLOR_JITTER: 0.4
+  CUTMIX: 1.0
+  CUTMIX_MINMAX: null
+  MIXUP: 0.8
+  MIXUP_MODE: batch
+  MIXUP_PROB: 1.0
+  MIXUP_SWITCH_PROB: 0.5
+  RECOUNT: 1
+  REMODE: pixel
+  REPROB: 0.25
+BASE:
+- ''
+DATA:
+  ADD_META: true
+  BATCH_SIZE: 32
+  CACHE_MODE: part
+  DATASET: cub-200
+  DATA_PATH: /home/gtj/papercode/data/
+  FUSION: early
+  IMG_SIZE: 384
+  INTERPOLATION: bicubic
+  LATE_FUSION_LAYER: -1
+  MASK_PROB: 0.0
+  MASK_TYPE: constant
+  NUM_READERS: 4
+  NUM_WORKERS: 8
+  PIN_MEMORY: true
+  TRAIN_INTERPOLATION: bicubic
+  TRAIN_PATH: null
+  VAL_PATH: null
+  ZIP_MODE: false
+EVAL_MODE: false
+LOCAL_RANK: 0
+MODEL:
+  DORP_HEAD: true
+  DORP_META: true
+  DROP_PATH_RATE: 0.1
+  DROP_RATE: 0.0
+  EXTRA_TOKEN_NUM: 3
+  LABEL_SMOOTHING: 0.1
+  META_DIMS:
+  - 4
+  - 3
+  NAME: MetaFG_meta_1
+  NUM_CLASSES: 1000
+  ONLY_LAST_CLS: false
+  PRETRAINED: /home/gtj/papercode/data/MetaFormer_model/metafg_0_1k_224.pth
+  RESUME: ''
+  TYPE: MetaFG
+OUTPUT: output/MetaFG_meta_1/cub-200_v1
+PRINT_FREQ: 10
+SAVE_FREQ: 1
+SEED: 0
+TAG: cub-200_v1
+TEST:
+  CROP: true
+THROUGHPUT_MODE: false
+TRAIN:
+  ACCUMULATION_STEPS: 2
+  AUTO_RESUME: true
+  BASE_LR: 6.25e-06
+  CLIP_GRAD: 5.0
+  EPOCHS: 300
+  LR_SCHEDULER:
+    DECAY_EPOCHS: 30
+    DECAY_RATE: 0.1
+    NAME: cosine
+  MIN_LR: 6.25e-08
+  OPTIMIZER:
+    BETAS:
+    - 0.9
+    - 0.999
+    EPS: 1.0e-08
+    MOMENTUM: 0.9
+    NAME: adamw
+  START_EPOCH: 0
+  USE_CHECKPOINT: false
+  WARMUP_EPOCHS: 20
+  WARMUP_LR: 6.25e-09
+  WEIGHT_DECAY: 0.05
+
